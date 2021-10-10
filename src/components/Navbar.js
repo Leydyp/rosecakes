@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import Img from '../assets/rose.png';
 import Cartwidget from './Cartwidget';
+import '../components/Navbar.css';
 
 const NavContainer = styled.div`
     width: 100%;
