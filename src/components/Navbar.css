@@ -1,3 +1,56 @@
 .cartIcon {
     height: 30px;
+    
   }
+
+.navMenu{
+ 
+  display: grid;
+  grid-template-columns: repeat(5,auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 100vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.navbarItems {
+  width: 100%;
+  height: 80px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  z-index: 20;
+  
+  }
+
+  .nav-links:hover{
+    background-color:coral;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+    color:white;
+  
+}
+
+  .navbar-logo {
+
+    color: cornsilk;
+    justify-self:start;
+    margin-left: 20px;
+    cursor: pointer;
+    position:absolute;
+    top: 10px;
+    left: 0;
+    width: 130px;
+    height: 60px;
+    
+}
+.nav-links {
+
+  color:coral;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  
+}
