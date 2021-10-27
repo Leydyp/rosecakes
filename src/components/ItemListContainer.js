@@ -1,14 +1,24 @@
-import React from 'react'
-import ItemCount from './ItemCount';
+
+
+import React from 'react';
 
 
 
-function ItemListContainer() {
-    return (
-        
-            <ItemCount/>
-            
+const ItemListContainer = (aling) => {
+
+   
+    return(
+        <>
+        <h1 style={{textAlign:aling}}>¡Bienvenida Lady!</h1>
+    
+        </>
     )
 }
+export default ItemListContainer
 
-export default ItemListContainer;
+
+
+
+
+
+

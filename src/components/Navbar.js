@@ -6,9 +6,7 @@ import Img from '../assets/rose.png';
 const Navbar = () => {
   return (
     <nav className="navbarItems">
-      <h2>
-      <h1 ><img href="#"src={Img} className="navbar-logo"alt="logo"/></h1>
-      </h2>
+      <h1 className="navbar-logo"><img href="#"src={Img} alt="logo"/></h1>
       <ul className="navMenu">
         <li>
           <a className="nav-links" href="#">Inicio</a>
