@@ -66,7 +66,8 @@ export default function App({stock, initial, onAdd}) {
         >
           Muffin Frambuesa
         </Typography>
-        Cantidad productos: {counter} <br />
+        <div> <h3>Cantidad productos: {counter} </h3></div>
+       
       </CardContent>
       <CardActions>
         <Button
@@ -74,14 +75,16 @@ export default function App({stock, initial, onAdd}) {
           size="small"
           onClick={suma}
         >
-          +
+           {" "}
+            +{" "}
         </Button>
         <Button
           variant="contained"
           size="small"
           onClick={resta}
         >
-          -
+           {" "}
+            -{" "}
         </Button>
         <Button
           variant="contained"
