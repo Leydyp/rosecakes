@@ -1,23 +1,23 @@
-import React from 'react'
-import styled from 'styled-components';
+import React from 'react';
+import ItemList from './ItemList';
 
-const Saludo = styled.h1 `
+
+export default function Contenedor (){
+    return ( <>
+        <div className='Contenedor'>
+
+        <ItemList />
+        
+        </div>
+        </>
+    );
+};
+
  
-  align-items: center;
-  display: flex;
-  height: 50vh;
-  justify-content: center;
-  width: 100%;
-  color: #687980;
-`;
 
-function ItemListContainer() {
-    return (
-        
-            <Saludo>ROSECAKES BIENVENIDOS</Saludo>
-            
-        
-    )
-}
 
-export default ItemListContainer
+
+
+
+
+
